@@ -37,12 +37,12 @@ public class TestingController {
         return testingService.updateTesting(test);
     }
 
-    @PostMapping("/getTestingById/{id}")
+ /*   @PostMapping("/getTestingById/{id}")
     public Testing getTestingById(@PathVariable("id")int id) {
         Testing test = testingService.getTestingById(id);
 
         return test;
-    }
+    }*/
 
     @PostMapping("/deleteTesting/{id}")
     public Testing deleteTesting(@PathVariable("id") int id) {
